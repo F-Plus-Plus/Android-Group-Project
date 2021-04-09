@@ -95,12 +95,11 @@ Ever wanted to purchase something for cheaper but couldn't find any deals? You m
     * Compose/Post Coupons
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
+<img src="Figma.gif" width=300>
 
 ## Schema 
 [This section will be completed in Unit 9]
