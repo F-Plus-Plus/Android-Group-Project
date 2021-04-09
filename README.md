@@ -97,7 +97,7 @@ Ever wanted to purchase something for cheaper but couldn't find any deals? You m
 ## Wireframes
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="FigmaScreens.png" width=600>
+<img src="FigmaScreens.png" width=800>
 
 ### [BONUS] Interactive Prototype
 <img src="Figma.gif" width=300>
