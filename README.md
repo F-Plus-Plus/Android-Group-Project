@@ -94,7 +94,7 @@ Ever wanted to purchase something for cheaper but couldn't find any deals? You m
 * Settings
     * Compose/Post Coupons
 
-## Wireframes -- Unit 9 READNE
+## Wireframes 
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="FigmaScreens.png" width=800>
@@ -102,7 +102,7 @@ Ever wanted to purchase something for cheaper but couldn't find any deals? You m
 ### [BONUS] Interactive Prototype
 <img src="Figma.gif" width=300>
 
-## Schema 
+## Schema -- Unit 9 READNE
 ### Models
 #### Coupon Post
 | Property      | Type     | Description |
