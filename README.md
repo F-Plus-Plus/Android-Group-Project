@@ -126,7 +126,7 @@ Ever wanted to purchase something for cheaper but couldn't find any deals? You m
 | password      | String   | Password used to log in    |
 
 ##### Build Sprint 1: 
-![](https://imgur.com/a/Do0Kdsf)
+<img src="imgur.com/a/Do0Kdsf" width=300>
 
 ### Networking
 #### List of Network Requests By Screen
