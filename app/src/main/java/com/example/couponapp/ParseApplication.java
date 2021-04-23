@@ -1,13 +1,9 @@
 package com.example.couponapp;
 
 import android.app.Application;
-
-import com.example.couponapp.Post;
 import com.parse.Parse;
 import com.parse.ParseObject;
 
-import okhttp3.OkHttpClient;
-import okhttp3.logging.HttpLoggingInterceptor;
 
 public class ParseApplication extends Application {
 
