@@ -1,9 +1,10 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.secrets_gradle_plugin' version '0.6'
 }
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
     defaultConfig {

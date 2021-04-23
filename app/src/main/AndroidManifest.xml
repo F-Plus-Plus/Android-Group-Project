@@ -42,6 +42,15 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="applicationID"
+            android:value="${applicationID}" />
+        <meta-data
+            android:name="clientKey"
+            android:value="${clientKey}" />
+        <meta-data
+            android:name="serverID"
+            android:value="${serverID}" />
 
         <activity
             android:name=".MapsActivity"

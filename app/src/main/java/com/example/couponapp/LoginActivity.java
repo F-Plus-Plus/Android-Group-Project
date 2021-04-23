@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.parse.BuildConfig;
+
 public class LoginActivity extends AppCompatActivity {
     public static final String TAG = "LoginActivity";
 
