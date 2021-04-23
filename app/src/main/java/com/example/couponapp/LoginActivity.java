@@ -2,6 +2,7 @@ package com.example.couponapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,18 +28,23 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
         btnRegister = findViewById(R.id.btnRegister);
 
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(LoginActivity.this, "Login not yet implemented!", Toast.LENGTH_SHORT).show();
-            }
+        // Login
+        btnLogin.setOnClickListener(view -> {
+            Toast.makeText(LoginActivity.this, "Login not yet implemented!", Toast.LENGTH_SHORT).show();
+            goMainActivity();
         });
 
-        btnRegister.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(LoginActivity.this, "Registering not yet implemented", Toast.LENGTH_SHORT).show();
-            }
+        // Register
+        btnRegister.setOnClickListener(view -> {
+            Toast.makeText(LoginActivity.this, "Registering not yet implemented", Toast.LENGTH_SHORT).show();
+            goMainActivity();
         });
+    }
+
+    // Goes to the Main Activity
+    private void goMainActivity() {
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+        finish();
     }
 }
