@@ -1,6 +1,3 @@
-Original App Design Project - Unit 8 README 
-===
-
 # Coupon Tracker
 
 ## Table of Contents
@@ -102,7 +99,7 @@ Ever wanted to purchase something for cheaper but couldn't find any deals? You m
 ### [BONUS] Interactive Prototype
 <img src="Figma.gif" width=300>
 
-## Schema -- Unit 9 READNE
+## Schema -- Unit 9 README
 ### Models
 #### Coupon Post
 | Property      | Type     | Description |
@@ -127,6 +124,9 @@ Ever wanted to purchase something for cheaper but couldn't find any deals? You m
 
 ##### Build Sprint 1: 
 <img src="BuildSprint1.gif" width=300>
+
+##### Build Sprint 2: 
+<img src="BuildSprint2.gif" width=300>
 
 ### Networking
 #### List of Network Requests By Screen
