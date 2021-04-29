@@ -27,20 +27,20 @@ Ever wanted to purchase something for cheaper but couldn't find any deals? You m
 
 **Required Must-have Stories**
 
-[X] User must register
-[X] User must login
-[] User can view coupons
-    [] User can view details of coupons
-[X] User can post coupons 
-[] User can delete their own coupons
+- [X] User must register
+- [X] User must login
+- [] User can view coupons
+   - [] User can view details of coupons
+- [X] User can post coupons 
+- [] User can delete their own coupons
 
 **Optional Nice-to-have Stories**
 
-[] User can sort coupons
-[] User can favorite coupons
-[] User can report expired coupons
-[] User can see where the coupon is from
-[] Delete outdated coupons automatically
+- [] User can sort coupons
+- [] User can favorite coupons
+- [] User can report expired coupons
+- [] User can see where the coupon is from
+- [] Delete outdated coupons automatically
 
 ### 2. Screen Archetypes
 
