@@ -65,10 +65,12 @@
         android:layout_marginBottom="20dp"
         android:autofillHints="Password"
         android:background="#11000000"
+        android:drawableLeft="@android:drawable/ic_secure"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:textSize="16dp" />
+        android:textSize="16sp"
+        android:drawableStart="@android:drawable/ic_secure" />
 
     <EditText
         android:id="@+id/etUsername"
@@ -90,5 +92,6 @@
         android:ems="10"
         android:hint="@string/username"
         android:inputType="textPersonName"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_baseline_person_24" />
 </RelativeLayout>
