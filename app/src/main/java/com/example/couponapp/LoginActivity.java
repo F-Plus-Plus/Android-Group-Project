@@ -28,14 +28,13 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        if (ParseUser.getCurrentUser() != null)
-            goMainActivity();
-
         ivLogo = findViewById(R.id.ivLogo);
         etUsername = findViewById(R.id.etUsername);
         etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
         btnRegister = findViewById(R.id.btnRegister);
+
+        if (ParseUser.getCurrentUser() != null) goMainActivity();
 
         // Login
         btnLogin.setOnClickListener(view -> {
@@ -68,6 +67,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
 
     // Goes to the Main Activity
     private void goMainActivity() {

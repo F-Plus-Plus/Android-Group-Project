@@ -9,5 +9,12 @@ public class ParseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+        Parse.initialize(new Parse.Configuration.Builder(this)
+                .applicationId(BuildConfig.applicationID)
+                .clientKey(BuildConfig.clientKey)
+                .server(BuildConfig.server)
+                .build()
+        );
     }
 }
