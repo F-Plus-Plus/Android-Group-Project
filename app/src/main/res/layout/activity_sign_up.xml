@@ -8,12 +8,6 @@
     android:orientation="vertical"
     tools:context=".SignUpActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="182dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
@@ -38,11 +32,24 @@
         android:hint="Email (optional)"
         android:inputType="textPersonName" />
 
+    <ImageView
+        android:id="@+id/ivPicture"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/btnUploadPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E674FF"
+        android:text="Upload Profile Pic" />
+
     <Button
         android:id="@+id/btnFinishSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#EAD413"
+        android:backgroundTint="#60D7FB"
         android:text="Finish Sign UP!" />
 
 </LinearLayout>
