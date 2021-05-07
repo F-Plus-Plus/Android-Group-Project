@@ -34,7 +34,9 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
         btnRegister = findViewById(R.id.btnRegister);
 
-        if (ParseUser.getCurrentUser() != null) goMainActivity();
+        // if (ParseUser.getCurrentUser() != null) goMainActivity();
+
+        ivLogo.setImageResource(R.drawable.logo_glow);
 
         // Login
         btnLogin.setOnClickListener(view -> {
