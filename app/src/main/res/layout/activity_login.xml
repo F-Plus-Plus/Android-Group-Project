@@ -68,6 +68,7 @@
         android:background="#11000000"
         android:drawableStart="@android:drawable/ic_secure"
         android:drawableLeft="@android:drawable/ic_secure"
+        android:drawablePadding="15px"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"

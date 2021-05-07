@@ -22,6 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CouponApp">
         <activity android:name=".MainActivity" />
+        <activity android:name=".SignUpActivity" />
         <activity android:name=".LoginActivity">
 
             <!-- Used to make Login Activity the first activity the user sees -->
@@ -31,6 +32,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

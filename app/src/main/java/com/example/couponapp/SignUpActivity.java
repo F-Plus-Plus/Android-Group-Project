@@ -49,9 +49,6 @@ public class SignUpActivity extends AppCompatActivity {
     private Uri imageUri;
     ParseFile parseFile;
 
-    private File photoFile;
-    public String photoFileName = "picture.jpg";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,24 +66,18 @@ public class SignUpActivity extends AppCompatActivity {
         etEmail = findViewById(R.id.etEmail);
         ivProfilePic = findViewById(R.id.ivPicture);
 
-        // Create a File reference for future access
-        photoFile = getPhotoFileUri(photoFileName);
-        ParseFile parseFile = new ParseFile(photoFile);
-
         btnUploadPic = findViewById(R.id.btnUploadPic);
         btnUploadPic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { uploadFromGallery(); }
         });
 
-        photoFile = getPhotoFileUri(photoFileName);
-
         btnSignUp = findViewById(R.id.btnFinishSignUp);
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 signUpUser(etUsername.getText().toString(), etPassword.getText().toString(),
-                        etEmail.getText().toString(), photoFile);
+                        etEmail.getText().toString());
             }
         });
     }
@@ -148,7 +139,7 @@ public class SignUpActivity extends AppCompatActivity {
         return image;
     }
 
-    private void signUpUser(String username, String password, String email, File photoFile) {
+    private void signUpUser(String username, String password, String email) {
         Log.i(TAG, "Attempting to sign up new user:" + username);
         // Create the ParseUser
         ParseUser user = new ParseUser();

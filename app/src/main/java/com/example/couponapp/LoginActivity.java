@@ -39,18 +39,30 @@ public class LoginActivity extends AppCompatActivity {
         ivLogo.setImageResource(R.drawable.logo_glow);
 
         // Login
-        btnLogin.setOnClickListener(view -> {
-            Log.i(TAG, "onClick login button");
-            String username = etUsername.getText().toString();
-            String password = etPassword.getText().toString();
-            loginUser(username, password);
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "onClick login button");
+                String username = etUsername.getText().toString();
+                String password = etPassword.getText().toString();
+                loginUser(username, password);
+            }
         });
 
         // Register
-        btnRegister.setOnClickListener(view -> {
-            Log.i(TAG, "onClick register button");
-            Toast.makeText(LoginActivity.this, "Registering not yet implemented", Toast.LENGTH_SHORT).show();
-            goMainActivity();
+        btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG, "onClick for sign up");
+                String username = etUsername.getText().toString();
+                String password = etPassword.getText().toString();
+                // Pass username and password to sign up screen
+                Intent i = new Intent(LoginActivity.this, SignUpActivity.class);
+                i.putExtra("username", username);
+                i.putExtra("password", password);
+                startActivity(i);
+                finish();
+            }
         });
     }
 

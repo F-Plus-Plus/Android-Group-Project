@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ivPicture" type="id" />
+    <item name="etEmail" type="id" />
+    <item name="btnUploadPic" type="id" />
+    <item name="btnFinishSignUp" type="id" />
+</resources>
