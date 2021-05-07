@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.example.couponapp.fragments.ComposeFragment;
+import com.example.couponapp.fragments.HomeFragment;
+import com.example.couponapp.fragments.ProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,14 +32,14 @@ public class MainActivity extends AppCompatActivity {
                 Fragment fragment;
                 switch (menuItem.getItemId()) {
                     case R.id.action_home:
-                        fragment = new ComposeFragment();
+                        fragment = new HomeFragment();
                         break;
                     case R.id.action_compose:
                         fragment = new ComposeFragment();
                         break;
                     case R.id.action_profile:
                     default:
-                        fragment = new ComposeFragment();
+                        fragment = new ProfileFragment();
                         break;
                 }
                 fragmentManager.beginTransaction().replace(R.id.flContainer, fragment).commit();

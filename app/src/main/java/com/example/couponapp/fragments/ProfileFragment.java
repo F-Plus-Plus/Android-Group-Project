@@ -12,20 +12,20 @@ import android.view.ViewGroup;
 
 import com.example.couponapp.R;
 
-public class ComposeFragment extends Fragment {
-    private static final String TAG = "ComposeFragment";
+public class ProfileFragment extends Fragment {
+    private static final String TAG = "ProfileFragment";
 
-    public ComposeFragment() {}
+    public ProfileFragment() {}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_compose, container, false);
+        return inflater.inflate(R.layout.fragment_profile, container, false);
     }
 
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        
+
     }
 }
