@@ -128,6 +128,9 @@ Ever wanted to purchase something for cheaper but couldn't find any deals? You m
 ##### Build Sprint 2: 
 <img src="BuildSprint2.gif" width=300>
 
+##### Build Sprint 3: 
+<img src="BuildSprint2.gif" width=300>
+
 ### Networking
 #### List of Network Requests By Screen
 - Login/Signup Screen
